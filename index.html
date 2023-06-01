@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dom hands on 1</title>
+</head>
+<body>
+   <div class="container1">
+
+      <div class="questions">
+     <!-- Question 1 -->
+    <div class="heading">DOM HANDS-ON</div>
+  <div class="container">
+      <div class="question"> Q1. Write the code to access element which is having id as "text"</div>
+      <div id="text"></div> 
+  </div>
+     <!-- Question 2 -->
+  
+  <div class="container container2">
+      <div class="question">Q2.  Write the code to access element which is having tag as "h1" </div>
+     <div> <h1></h1></div>
+  </div>
+     <!-- Question 3 -->
+  
+  <div class="container">
+  <div class="question"> Q3. Write the code to access element which is having class as "box"</div>
+      <div class="box"></div>
+  </div>  
+     <!-- Question 4 -->
+  
+     <div class="container container4">
+      <div class="question">Q4. 'Change the heading from ""Hello"" to ""Hello World"" using DOM functions"  </div>
+     <div> <h1>Hello </h1> </div>
+  </div>
+      <!-- Question 5 --> 
+  
+     <div class="container container5">
+      <div class="question">
+        Q5. Create an HTML page having content as Hello world and a button
+          named Replace Text. When user will click on this button page content 
+          should be changed to "Welcome to Elevation academy"  
+   </div>
+  
+          <div class="content">Hello world</div>
+          <button onclick="changeContent5()">Replace Text</button>
+     </div>
+     <!-- Question 6 -->
+  <div class="container container6">
+   <div class="question">
+      Q6. "Add one style attribute and give text color as red and id attribute and give the 
+      id value as ""heading"" in the above given h1 tag using DOM functions"
+   </div>
+   <div>  <h1>Hello </h1> </div>
+  </div>
+     <!-- Question 7 -->
+     <div class="container container7">
+   <div class="question">Q7.
+      Create three cards on HTML page and arrange them using
+       flex property in row or horizontal direction and also create 
+       button at the bottom named "Change Flex direction". When user
+        clicks on this button, the cards arrangement should be changed
+         to vertical direction.
+   </div>
+   <div class="questionBoxContainer">
+      <div class="questionBox"></div>
+      <div class="questionBox"></div>
+      <div class="questionBox"></div>
+   </div>
+      <button>Change Flex direction</button>
+     </div>
+     <!-- Question 8 -->
+     <div class="container container8">
+      <div class="question">Q8. 
+       What’s the difference between window vs document?
+      </div>
+      <table border="1px solid black" cellspacing="0" >
+         <tr>
+            <th>document</th>
+            <th>window</th>
+         </tr>
+         <tr>
+            <td>It represents any HTML document or web page that is loaded in the browser.</td>
+            <td>It represents a browser window or frame that displays the contents of the webpage.  </td>
+         </tr>
+         <tr>
+            <td>It is loaded inside the window.</td>
+            <td>It is the very first object that is loaded in the browser. </td>
+         </tr>
+         <tr>
+            <td>All the tags, elements with attributes in HTML are part of the document.</td>
+            <td>Global objects, functions, and variables of JavaScript are members of the window object.</td>
+         </tr>
+         <tr>
+            <td>Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. document.title</td>
+            <td>Properties of the window object cannot be accessed by the document object.</td>
+         </tr>
+         <tr>
+            <td>syntax:
+
+               document.propertyname;</td>
+            <td>syntax:
+
+               window.propertyname;</td>
+         </tr>
+       
+      </table>
+     </div>
+     <!-- Question 9 -->
+     <div class="container">
+      <div class="question">Q9.
+      Write code to implement timer clock using JS -- 
+      display HH:MM:SS -- the time should keep updating
+       every second
+      </div>
+      <span id="hh"></span>
+      <span id="mm"></span>
+      <span id="ss"></span>
+      <span id="ampm"></span>
+     </div>
+     <!-- Question 10 -->
+     <div class="container">
+      <div class="question">Q10.
+  Guessing game
+      </div>
+      <a href="./guessingGame.html">let's play a Guessing game</a>
+     </div>
+  
+      </div>
+   </div>
+ 
+ <script src="./script.js"></script>
+</body>
+</html>
