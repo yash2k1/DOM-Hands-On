@@ -5,11 +5,11 @@
  let chances=document.getElementById("chances"); 
  let highscore=document.getElementById("highscore");
  let check=document.getElementById("check");
- 
+
 // logic
 console.log(bg[0]);
 highscore=0;
-let random=parseInt(10*Math.random()+1);
+let random=parseInt(100*Math.random()+1);
 function checkNumber(){
 if(input.value==random){
     bg[0].style.backgroundColor="green";
@@ -29,4 +29,8 @@ else {
     highscore.innerHTML++;
 }
 
+}
+// reload the game using paly again
+function reload(){
+    location.reload();
 }
